@@ -1,0 +1,23 @@
+POST http://localhost:8080/tables
+Content-Type: application/json
+Authorization: Surious eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJtYW5hZ2VyIiwiQXV0aG9yaXRpZXMiOlsiUk9MRV9NQU5BR0VSIl0sImlkIjoiMiIsImV4cCI6MTYxMTgzMzc2OH0.otQKJ74AFkIKvVOer1inIFn6ssggLgfWEMq__FRSDJDKI5nk2aFGEJbXuAF9ebyyAh2XAMDIHzXJr-k9DLIpQw
+
+###
+
+PUT http://localhost:8080/tables/1/waiter/3
+Content-Type: application/json
+Authorization: Surious eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJtYW5hZ2VyIiwiQXV0aG9yaXRpZXMiOlsiUk9MRV9NQU5BR0VSIl0sImlkIjoiMiIsImV4cCI6MTYxMTgzMzc2OH0.otQKJ74AFkIKvVOer1inIFn6ssggLgfWEMq__FRSDJDKI5nk2aFGEJbXuAF9ebyyAh2XAMDIHzXJr-k9DLIpQw
+
+###
+
+GET http://localhost:8080/tables
+Content-Type: application/json
+Authorization: Surious eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJtYW5hZ2VyIiwiQXV0aG9yaXRpZXMiOlsiUk9MRV9NQU5BR0VSIl0sImlkIjoiMiIsImV4cCI6MTYxMTgzMzc2OH0.otQKJ74AFkIKvVOer1inIFn6ssggLgfWEMq__FRSDJDKI5nk2aFGEJbXuAF9ebyyAh2XAMDIHzXJr-k9DLIpQw
+
+###
+
+GET http://localhost:8080/tables/my
+Content-Type: application/json
+Authorization: Surious eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ3YWl0ZXIiLCJBdXRob3JpdGllcyI6WyJST0xFX1dBSVRFUiJdLCJpZCI6IjMiLCJleHAiOjE2MTE4MzM4NDV9.w6zzUCDVjZiaJFE6YV1SOmOrKsjuUKmkI_K332gRj5OJRnT7Eaix_foECC2x8a7j_7TAlRmIKdpdoSzR7MP2oQ
+
+###

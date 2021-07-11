@@ -1,0 +1,29 @@
+server:
+  port: 8080
+  servlet:
+    application-display-name: Cafe Manager Assignment
+
+
+spring:
+  datasource:
+    username: postgres
+    password: root
+    url: jdbc:postgresql://localhost:5432/cafe-manager
+    driverClassName: org.postgresql.Driver
+  jpa:
+    generate-ddl: true
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        jdbc:
+          lob:
+            non_contextual_creation: true
+
+admin:
+  firstName: Tatev
+  lastName: Sharyan
+  email: tatevSharyan@admin.com
+  username: deff
+  password: admin123

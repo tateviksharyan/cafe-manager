@@ -1,0 +1,25 @@
+
+
+###
+
+POST http://localhost:8080/user
+Content-Type: application/json
+Authorization: Surious eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJTdXJpb3VzIiwiQXV0aG9yaXRpZXMiOlsiUk9MRV9BRE1JTiJdLCJpZCI6IjEiLCJleHAiOjE2MTE4MzM1Mzl9.2CWA9qqi5zZSF-IfpkLD48ZrUjbYC5Sc2GUMe8ISqRPP6TXhqZp2aAeckgQ1-1N4sveXb1dx9q5KlkBJVXzWnA
+
+{
+  "firstName": "Serj",
+  "lastName": "Tankyan",
+  "email": "serj@gmail.com",
+  "username": "waiter",
+  "password": "waiter",
+  "role": "ROLE_WAITER"
+}
+
+###
+
+GET http://localhost:8080/user
+Content-Type: application/json
+Authorization: Surious eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJTdXJpb3VzIiwiQXV0aG9yaXRpZXMiOlsiUk9MRV9BRE1JTiJdLCJpZCI6IjEiLCJleHAiOjE2MTE4MzM1Mzl9.2CWA9qqi5zZSF-IfpkLD48ZrUjbYC5Sc2GUMe8ISqRPP6TXhqZp2aAeckgQ1-1N4sveXb1dx9q5KlkBJVXzWnA
+
+
+###
